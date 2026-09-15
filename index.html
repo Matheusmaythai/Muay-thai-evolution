@@ -3,116 +3,150 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Muay Thai Evolution</title>
 
 <style>
-*{box-sizing:border-box}
-
-body{
-margin:0;
-background:#080808;
-color:white;
-font-family:Arial,sans-serif;
-line-height:1.6;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
 }
 
-.hero{
-min-height:100vh;
-padding:70px 7%;
-display:flex;
-align-items:center;
-
-background:
-linear-gradient(90deg,#000e,#0006),
-url("capa.muay.thai.png") center/cover;
+header {
+    padding: 80px 20px;
+    background: linear-gradient(#000b, #000b), url("capa.muay.thai.png");
+    background-size: cover;
+    background-position: center;
 }
 
-.box{
-max-width:700px;
+h1 {
+    font-size: 55px;
+    margin: 0;
 }
 
-.tag{
-text-transform:uppercase;
-letter-spacing:4px;
-font-weight:bold;
+h1 span {
+    color: red;
 }
 
-h1{
-font-size:clamp(60px,11vw,125px);
-line-height:.85;
-margin:20px 0;
-text-transform:uppercase;
-text-shadow:5px 5px #000;
+p {
+    color: #ddd;
+    font-size: 18px;
 }
 
-h1 span,h2 span{
-color:#e21b16;
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
-p{
-color:#ccc;
-font-size:18px;
+section {
+    padding: 50px 20px;
 }
 
-.btn{
-display:inline-block;
-background:#e21b16;
-color:white;
-text-decoration:none;
-padding:15px 28px;
-border-radius:6px;
-font-weight:bold;
-margin-top:15px;
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
 }
 
-section{
-padding:75px 7%;
+.card {
+    background: #222;
+    padding: 25px;
+    border-radius: 12px;
 }
 
-.center{
-text-align:center;
+footer {
+    padding: 30px;
+    color: #777;
 }
+</style>
+</head>
 
-.grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px;
-max-width:1100px;
-margin:40px auto;
-}
+<body>
 
-.card{
-background:#151515;
-border:1px solid #292929;
-border-radius:12px;
-padding:25px;
-}
+<header>
+    <h1>MUAY THAI <span>EVOLUTION</span></h1>
 
-.icon{
-font-size:35px;
-}
+    <p>
+        Guia completo para estudar fundamentos,
+        técnicas, preparação e evolução no Muay Thai.
+    </p>
 
-h2{
-font-size:42px;
-text-transform:uppercase;
-}
+    <a class="botao" href="#conteudo">CONHECER O GUIA</a>
+</header>
 
-.offer{
-text-align:center;
-background:#120707;
-}
+<section id="conteudo">
 
-.price{
-font-size:48px;
-font-weight:bold;
-}
+    <h2>O QUE VOCÊ VAI ENCONTRAR</h2>
 
-.buy{
-max-width:550px;
-margin:auto;
-}
+    <div class="cards">
 
-footer{
-text-align:center;
-padding:
+        <div class="card">
+            <h3>🥊 Fundamentos</h3>
+            <p>Base, guarda, postura e movimentação.</p>
+        </div>
+
+        <div class="card">
+            <h3>👊 Técnicas</h3>
+            <p>Conceitos das principais técnicas do Muay Thai.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛡️ Defesa</h3>
+            <p>Conceitos de proteção e deslocamento.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏃 Preparação</h3>
+            <p>Organização e preparação para os treinos.</p>
+        </div>
+
+        <div class="card">
+            <h3>🍚 Alimentação</h3>
+            <p>Hábitos equilibrados, alimentação variada e hidratação.</p>
+        </div>
+
+        <div class="card">
+            <h3>😴 Recuperação</h3>
+            <p>Sono, descanso e recuperação.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>BÔNUS</h2>
+
+    <p>📖 Diário de evolução</p>
+    <p>🎯 Desafio de 30 dias</p>
+    <p>📋 Checklist de treino</p>
+
+</section>
+
+<section>
+
+    <h2>MUAY THAI <span>EVOLUTION</span></h2>
+
+    <p>Comece a estudar e acompanhar sua evolução.</p>
+
+    <a class="botao" href="#">QUERO MEU GUIA</a>
+
+</section>
+
+<footer>
+    Muay Thai Evolution © 2026
+</footer>
+
+</body>
+</html>
