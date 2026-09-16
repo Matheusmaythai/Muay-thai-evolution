@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Muay Thai Evolution</title>
 
     <style>
@@ -10,121 +11,305 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: Arial, sans-serif;
         }
 
         body {
-            background: #111;
+            font-family: Arial, sans-serif;
+            background: #0b0b0b;
             color: white;
-            text-align: center;
+            line-height: 1.6;
         }
 
         header {
-            padding: 40px 20px;
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #333;
         }
 
-        header img {
-            width: 100%;
-            max-width: 500px;
-            border-radius: 12px;
-            margin-bottom: 25px;
-        }
-
-        h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-        }
-
-        .subtitulo {
-            font-size: 20px;
-            color: #ccc;
-            margin-bottom: 25px;
-        }
-
-        .frase {
-            font-size: 18px;
+        header h1 {
+            font-size: 32px;
             letter-spacing: 2px;
+        }
+
+        header p {
+            color: #aaa;
+            margin-top: 5px;
+        }
+
+        .hero {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .capa {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 12px;
             margin-bottom: 30px;
+            box-shadow: 0 0 25px rgba(255,255,255,0.08);
+        }
+
+        .hero h2 {
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 25px;
+            color: #ccc;
+            font-size: 18px;
         }
 
         .botao {
             display: inline-block;
-            padding: 16px 30px;
             background: #e50914;
             color: white;
             text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 8px;
             font-size: 18px;
             font-weight: bold;
-            border-radius: 8px;
+            transition: 0.2s;
         }
 
         .botao:hover {
-            opacity: 0.85;
+            background: #ff1a25;
+            transform: scale(1.03);
         }
 
         section {
-            padding: 40px 20px;
-            max-width: 800px;
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #151515;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #292929;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #bbb;
+        }
+
+        .lista {
+            max-width: 700px;
             margin: auto;
         }
 
-        h2 {
-            margin-bottom: 20px;
+        .lista p {
+            background: #151515;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            color: #ddd;
         }
 
-        p {
-            color: #ddd;
-            line-height: 1.6;
+        .cta {
+            text-align: center;
+            background: #111;
+            padding: 60px 20px;
+            margin-top: 30px;
+        }
+
+        .cta h2 {
             margin-bottom: 15px;
         }
 
         footer {
-            padding: 30px;
-            color: #888;
+            text-align: center;
+            padding: 25px;
+            color: #777;
+            font-size: 14px;
+            border-top: 1px solid #222;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            .hero h2 {
+                font-size: 27px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <header>
+<header>
+    <h1>MUAY THAI EVOLUTION</h1>
+    <p>Disciplina • Foco • Respeito • Evolução</p>
+</header>
 
-        <img src="capa.muay.thai.png" alt="Muay Thai Evolution">
+<main>
 
-        <h1>MUAY THAI EVOLUTION</h1>
+    <div class="hero">
 
-        <p class="subtitulo">
-            GUIA COMPLETO DE TREINO E EVOLUÇÃO
+        <img
+            src="capa.muay.thai.png"
+            alt="Capa do Muay Thai Evolution"
+            class="capa"
+        >
+
+        <h2>Do Básico à Evolução</h2>
+
+        <p>
+            Um guia educativo para aprender os fundamentos do Muay Thai,
+            organizar seus treinos e desenvolver disciplina durante sua evolução.
         </p>
 
-        <p class="frase">
-            DISCIPLINA • FOCO • RESPEITO • EVOLUÇÃO
-        </p>
-
-        <!-- COLOQUE AQUI O LINK DA KIWIFY -->
-        <a class="botao" href="SEU-LINK-KIWIFY">
+        <a
+            class="botao"
+            href="https://pay.kiwify.com.br/st8hREm"
+            target="_blank"
+        >
             QUERO MEU GUIA
         </a>
 
-    </header>
+    </div>
 
     <section>
-        <h2>Aprenda. Treine. Evolua.</h2>
+        <h2>O que você vai encontrar</h2>
 
-        <p>
-            Um guia educativo para quem quer conhecer os fundamentos
-            do Muay Thai, organizar seus treinos e desenvolver disciplina.
-        </p>
+        <div class="cards">
 
-        <p>
-            Conteúdo sobre fundamentos, técnicas, defesa, organização
-            de treinos, recuperação, equipamentos e muito mais.
-        </p>
+            <div class="card">
+                <h3>🥊 Fundamentos</h3>
+                <p>
+                    Aprenda os principais fundamentos e técnicas básicas
+                    do Muay Thai.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🛡️ Defesa</h3>
+                <p>
+                    Conheça conceitos de defesa, movimentação e posicionamento.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🏃 Treinos</h3>
+                <p>
+                    Organize seus treinos de maneira mais estruturada.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Alimentação</h3>
+                <p>
+                    Informações gerais sobre hidratação e alimentação equilibrada.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>😴 Recuperação</h3>
+                <p>
+                    Entenda a importância do sono, descanso e recuperação.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🥋 Equipamentos</h3>
+                <p>
+                    Conheça equipamentos utilizados nos treinos de Muay Thai.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📅 Desafio de 30 dias</h3>
+                <p>
+                    Um desafio para ajudar a manter organização e disciplina.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📖 Glossário</h3>
+                <p>
+                    Consulte termos importantes utilizados no Muay Thai.
+                </p>
+            </div>
+
+        </div>
     </section>
 
-    <footer>
-        © 2026 Muay Thai Evolution
-    </footer>
+    <section>
+        <h2>Por que usar o guia?</h2>
+
+        <div class="lista">
+
+            <p>✓ Material organizado e fácil de acompanhar.</p>
+
+            <p>✓ Conteúdo voltado para fundamentos e evolução.</p>
+
+            <p>✓ Ajuda a organizar sua rotina de treinamento.</p>
+
+            <p>✓ Inclui checklist e diário de acompanhamento.</p>
+
+            <p>✓ Conteúdo educativo para acompanhar seus treinos.</p>
+
+        </div>
+    </section>
+
+    <div class="cta">
+
+        <h2>Comece sua evolução</h2>
+
+        <p style="color:#bbb; margin-bottom:25px;">
+            Disciplina • Foco • Respeito • Evolução
+        </p>
+
+        <a
+            class="botao"
+            href="https://pay.kiwify.com.br/st8hREm"
+            target="_blank"
+        >
+            QUERO MEU GUIA
+        </a>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>
+        MUAY THAI EVOLUTION — Guia educativo
+    </p>
+
+    <p>
+        Este material não substitui a orientação de um profissional qualificado.
+        Treinos devem ser realizados de forma segura e adequada à idade e ao nível
+        de experiência.
+    </p>
+</footer>
 
 </body>
 </html>
